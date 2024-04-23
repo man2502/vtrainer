@@ -1,10 +1,15 @@
+import AppLayout from "Components/layouts/AppLayout";
 import { FC } from "react";
 
 
 
 const App: FC = () => {
     return (
-        <div className="font-semibold container mx-auto">test</div>
+        <div className="h-screen w-full bg-gray-100">
+            <AppLayout>
+                main page
+            </AppLayout>
+        </div>
     )
 }
 
